@@ -1,0 +1,223 @@
+/* tipografías y definiciones ___________________ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1em;
+    font-size: 30px;
+    color: #ef6d55;
+  }
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 1em;
+    font-size: 20px;
+    color: #ef6d55;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    line-height: 0.5em;
+    font-size: 16px;
+    color: #707070;
+}
+
+h4 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    line-height: 1em;
+    font-size: 12px;
+    color: #707070;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    line-height: 1.5em;
+    font-size: 15px;
+    color: #707070;
+}
+
+/* grid ___________________ */
+
+#gridcard {
+    display: grid;
+    grid-template-areas: 'img'
+    'tipo'
+    'titulo'
+    'descripcion'
+    'boton'
+    'interaccion';
+    justify-content: center;
+    align-content: center;
+}
+
+.img {
+    grid-area: img;
+}
+
+.tipo {
+    grid-area: tipo;
+    padding-left: 8%;
+}
+
+.titulo {
+    grid-area: titulo;
+    padding-left: 8%;
+    bottom: 0;
+}
+
+.descripcion {
+    grid-area: descripcion;
+    padding-left: 8%;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.boton {
+    grid-area: boton;
+    margin: 0% 6% 2% 6%;
+    border: 0;
+    border-radius: 20px;
+    background-color: #1f5079;
+    padding: 3%;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    outline: none;
+}
+
+button:hover {
+    background-color: #0e3657;
+    cursor: pointer;
+}
+
+.interaccion {
+    grid-area: interaccion;
+    padding-left: 8%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* card ___________________ */
+
+.header {
+    margin: 0;
+    padding: 0;
+}
+  
+.header img {
+    width: 260px;
+    height: 180px;
+    margin: 0;
+    padding: 0;
+    border-top-right-radius: 4%;
+    border-top-left-radius: 4%;
+}
+  
+.card {
+    flex-wrap: wrap;
+    width: 250px;
+    height: 430px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 25px 0px rgba(46, 61, 73, 0.205);
+    background-color: #ffffff;
+    margin: 4% 0% 5% 3%;
+    padding: 0% 1% 1% 1%;
+}
+  
+
+.card:last-child {
+    margin-right: 0;
+}
+
+body {
+      background-color: #f7f7f7;
+}
+
+.lista-desafios {
+    display: flex;
+   /*  overflow: hidden; */
+    position: relative;
+}
+  
+  /* todos desafios ___________ */
+  
+  #contenedor-todosdesafios {
+    display: grid;
+    grid-template-areas: 'intro vacio filtros';
+  }
+  
+  .intro {
+    grid-area: intro;
+    padding: 1% 4% 1% 4%;
+    margin-left: 4%;
+  }
+  
+  .filtros {
+    grid-area: filtros;
+    margin-right: 4%;
+  }
+  
+  #gridfiltros {
+    display: grid;
+    grid-template-areas: 'boton1 boton2 boton3 boton4';
+    justify-content: right;
+    align-content: center;
+  }
+  
+  .boton1 {
+    grid-area: boton1;
+    width: 100px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  
+  .boton2 {
+    grid-area: boton2;
+    width: 100px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  
+  .boton3 {
+    grid-area: boton3;
+    width: 100px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  
+  .boton4 {
+    grid-area: boton4;
+    width: 100px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  
+  .filtro {
+    border: 1px;
+    border-radius: 20px;
+    background-color: #eeeeee;
+    padding: 3%;
+    font-family: 'Quicksand', sans-serif;
+    color: #707070;
+    font-size: 12px;
+    border: 1px solid #707070;
+    outline: none;
+  }
+  
+  .filtro:hover {
+    background-color: #ffffff;
+  }

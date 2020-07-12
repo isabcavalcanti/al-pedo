@@ -1,0 +1,148 @@
+#gridheader {
+    display: grid;
+    grid-template-areas: 'buscador logo help';
+    justify-content: space-between;
+    padding: 2%;
+    margin: auto;
+}
+
+.buscador {
+    grid-area: buscador;
+    align-self: center;
+}
+
+.logo { 
+    grid-area: logo;
+    align-self: center;
+}
+
+.help {
+    grid-area: help;
+    align-self: center;
+    justify-self: center;
+}
+
+.a {
+    cursor: pointer;
+    
+}
+
+#gridhelp {
+    display: grid;
+    grid-template-areas: 'icono';
+    justify-content: center;
+    align-items: center;
+}
+
+.icono {
+    grid-area: icono;
+    padding-top: 4px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+
+/* buscador __________________ */
+/* border-box */
+.search-container *,
+.search-container *:after,
+.search-container *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* search bar focus */
+.search-container *:focus {
+  background: #fbfbfb;
+  color: #ef6d55;
+  outline: 0;
+}
+
+/* search bar container */
+.search-container {
+  display: table;
+  position: relative;
+}
+
+/* search icon button */
+.search-icon-btn {
+  background-color: transparent;
+  /* background-image: url("search.svg"); */
+  display: table-cell;
+  height: 20px;
+  position: relative;
+  width: 20px;
+  z-index: 2;
+}
+
+/* search bar input container */
+.search-input {
+  position: absolute;
+  left: 20px;
+  z-index: 1;
+}
+
+/* search bar input */
+.search-input input.search-bar {
+  border: 1px solid #cccccc;
+  height: 40px;
+  padding: 12px;
+  width: 80px;
+  border-radius: 100px;
+}
+.search-input input.search-bar:focus {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 200px;
+  border: 1px solid #ef6d55;
+}
+
+/* transition effect */
+.search-input input.search-bar,
+.search-icon-btn {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  font-family: 'Quicksand';
+}
+
+/* hover on search bar container */
+.search-container:hover > .search-input input.search-bar {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 200px;
+}
+
+.modal {
+  background-color: #ffffff;
+  width: 30%;
+  height: 30%;
+  outline: none;
+  margin: 0 auto;
+  margin-top: 15%;
+  border-radius: 10px;
+  padding: 2%;
+  text-align: center;
+}
+
+.boton-modal {
+  border: 0;
+  border-radius: 20px;
+  background-color: #1f5079;
+  padding: 3%;
+  font-family: 'Quicksand', sans-serif;
+  color: #ffffff;
+  font-size: 12px;
+  outline: none;
+  width: 60%;
+}
+
+.boton-modal a {
+  color: #ffffff;
+  text-decoration: none;
+}
+

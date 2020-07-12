@@ -1,0 +1,108 @@
+.container {
+  margin-bottom: 7%;
+}
+
+.lista-desafios {
+  display: flex;
+  position: relative;
+  padding: 4% 0% 0% 7%;
+}
+
+/* todos desafios ___________ */
+
+#contenedor-todosdesafios {
+  display: grid;
+  grid-template-areas: 'intro vacio filtros';
+}
+
+.intro2 {
+padding: 1% 4% 1% 4%;
+}
+
+.filtros {
+  grid-area: filtros;
+  margin-right: 4%;
+}
+
+#gridfiltros {
+  display: grid;
+  grid-template-areas: 'boton1 boton2 boton3 boton4';
+  justify-content: right;
+  align-content: center;
+}
+
+.boton1 {
+  grid-area: boton1;
+  width: 100px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.boton2 {
+  grid-area: boton2;
+  width: 100px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.boton3 {
+  grid-area: boton3;
+  width: 100px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.boton4 {
+  grid-area: boton4;
+  width: 100px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.filtro {
+  border: 1px;
+  border-radius: 20px;
+  background-color: #eeeeee;
+  padding: 3%;
+  font-family: 'Quicksand', sans-serif;
+  color: #707070;
+  font-size: 12px;
+  border: 1px solid #707070;
+  outline: none;
+}
+
+.filtro:hover {
+  background-color: #ffffff;
+}
+
+.carousel-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-around;
+  width: 100%;
+  margin-left: -32%;
+  margin-right: 1%;
+}
+
+.carousel-button {
+  outline: 0;
+  transition: all .5s;
+  border-radius: 35px;
+  z-index: 1000;
+  border: 0;
+  background: #ffffff;
+  box-shadow: 0px 0px 17px -5px rgba(0,0,0,0.71);
+  min-width: 43px;
+  min-height: 43px;
+  cursor: pointer;
+  color: #1f5079;
+  margin-left: 0;
+}
+
+.intro-wishlist {
+  margin-left: 4%;
+  margin-top: 4%;
+}
+
+
