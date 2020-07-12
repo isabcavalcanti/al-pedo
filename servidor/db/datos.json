@@ -1,0 +1,268 @@
+{
+    "usuarios": [
+        {
+            "nombre": "John Doe",
+            "email": "johndoe@gmail.com"
+        },
+        {
+            "nombre": "Jane Doe",
+            "email": "janedoe@gmail.com"
+        }
+    ],
+
+    "desafios": [
+            {
+              "id": 1,
+              "img": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "tipo": "UN DÍA",
+              "titulo": "Perdé calorías",
+              "descripcion": "Un workout de 30min para sudar todo lo que comiste.",
+              "boton": "me voy a morir",
+              "link":"https://www.youtube.com/watch?v=ml6cT4AZdqI&t=1s"
+            },
+            {
+              "id": 2,
+              "img": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "tipo": "UN MÉS",
+              "titulo": "Arrancá CodeCamp",
+              "descripcion": "Mejorá tus skills de programación en la cuarentena.",
+              "boton": "ir al codecamp",
+              "link": "https://www.freecodecamp.org/"
+            },
+            {
+              "id": 3,
+              "img": "https://images.pexels.com/photos/76942/pexels-photo-76942.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "UN DÍA",
+              "titulo": "Leé un e-Book",
+              "descripcion": "Biblioteca de más de 60 mil e-Books gratuitos.",
+              "boton": "a ver esos ebooks",
+              "link": "https://www.gutenberg.org/"
+            },
+            {
+              "id": 4,
+              "img": "https://images.pexels.com/photos/1557686/pexels-photo-1557686.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "tipo": "DOS SEMANAS",
+              "titulo": "Haz tu cerveza",
+              "descripcion": " Si puedes hacer fideos con queso, puedes hacer cerveza.",
+              "boton": "quiero aprender",
+              "link": "https://www.northernbrewer.com/blogs/new-to-brewing-start-here/how-to-brew-beer-homebrewing-101"
+            },
+            {
+              "id": 5,
+              "img": "https://images.pexels.com/photos/1336873/pexels-photo-1336873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "tipo": "DOS SEMANAS",
+              "titulo": "Organizá tu ropero",
+              "descripcion": "Un desafío para el consumo consciente de moda.",
+              "boton": "voy a poder",
+              "link": "https://www.saveyourwardrobe.com/2020/03/04/save-your-wardrobe-app-is-live/"
+            },
+            {
+              "id": 6,
+              "img": "https://images.pexels.com/photos/45842/clasped-hands-comfort-hands-people-45842.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "UNA SEMANA",
+              "titulo": "Ayudá alguien",
+              "descripcion": "7 formas en que puedes ayudar durante la pandemia.",
+              "boton": "ayudar ahora",
+              "link": "https://www.goodhousekeeping.com/uk/lifestyle/a31696743/how-to-help-others-coronavirus/"
+            },
+            {
+              "id": 7,
+              "img": "https://images.pexels.com/photos/3772612/pexels-photo-3772612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "UNA SEMANA",
+              "titulo": "Empezá a meditar",
+              "descripcion": "Ten una vida más feliz y más pacífica meditando.",
+              "boton": "oooommmm",
+              "link": "https://www.headspace.com/"
+            },
+            {
+              "id": 8,
+              "img": "https://images.pexels.com/photos/688689/pexels-photo-688689.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "UNA SEMANA",
+              "titulo": "Sacá fotos",
+              "descripcion": "Aprendé cómo tus fotos se vean más profesionales.",
+              "boton": "cheeeese",
+              "link": "https://www.format.com/magazine/resources/photography/how-to-take-professional-photos"
+            },
+            {
+              "id": 9,
+              "img": "https://images.pexels.com/photos/904616/pexels-photo-904616.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "DOS SEMANAS",
+              "titulo": "Leé Shakespeare",
+              "descripcion": "El mejor dramaturgo de todos los tiempos.",
+              "boton": "me pinta",
+              "link": "https://www.amazon.co.uk/Complete-William-Shakespeare-Special-Editions/dp/185326895X"
+            },
+            {
+              "id": 10,
+              "img": "https://images.pexels.com/photos/267669/pexels-photo-267669.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "UN MÉS",
+              "titulo": "Aprendé un idioma",
+              "descripcion": "Duolingo es gratis y accesible para todos!",
+              "boton": "let's learn",
+              "link": "https://www.youtube.com/channel/UCG98ruDeyp55THxbpBCIv3g"
+            },
+            {
+              "id": 11,
+              "img": "https://images.pexels.com/photos/3893682/pexels-photo-3893682.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "UNA SEMANA",
+              "titulo": "Seas un panadero",
+              "descripcion": "Miles de recetas para ti. En sus marcas, prepárense... ¡hornean!",
+              "boton": "hornear todo",
+              "link": "https://thegreatbritishbakeoff.co.uk/"
+            },
+            {
+              "id": 12,
+              "img": "https://images.pexels.com/photos/3854130/pexels-photo-3854130.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "DOS SEMANAS",
+              "titulo": "Haz un quizz",
+              "descripcion": "Contestá el quizz y poné a prueba tu conocimiento!",
+              "boton": "yo sé todos",
+              "link": "https://lizardpoint.com/geography/asia-quiz.php"
+            },
+            {
+              "id": 13,
+              "img": "https://images.pexels.com/photos/207665/pexels-photo-207665.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "UN DÍA",
+              "titulo": "Coloreá para relajar",
+              "descripcion": "Una actividad que te ayuda a calmar y ser creativo.",
+              "boton": "colorear mi vida",
+              "link": "https://www.independent.co.uk/extras/indybest/arts-books/colouring-books-colouring-books-for-adults-johanna-basford-millie-morotta-10464381.html"
+            },
+            {
+              "id": 14,
+              "img": "https://images.pexels.com/photos/2156/sky-earth-space-working.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "DOS SEMANAS",
+              "titulo": "Explorá el espacio",
+              "descripcion": "Descubrí lo que la NASA está revelando sobre el espacio.",
+              "boton": "que viaje!",
+              "link": "https://www.youtube.com/channel/UCLA_DiR1FfKNvjuUpBHmylQ"
+            },
+            {
+              "id": 15,
+              "img": "https://images.pexels.com/photos/316891/pexels-photo-316891.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "UN DÍA",
+              "titulo": "Hacete un trago",
+              "descripcion": "Prepara estos tragos en tu noche de cuarentena!",
+              "boton": "tin tin",
+              "link": "https://www.bbcgoodfood.com/recipes/collection/cocktail"
+            },
+            {
+              "id": 16,
+              "img": "https://images.pexels.com/photos/545053/pexels-photo-545053.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "UN MÉS",
+              "titulo": "Aprendé a dibujar",
+              "descripcion": "Para ser creativos durante la cuarentena.",
+              "boton": "quiero aprender",
+              "link": "https://daringtolivefully.com/learn-to-draw-in-30-days"
+            },
+            {
+              "id": 17,
+              "img": "https://images.pexels.com/photos/3064717/pexels-photo-3064717.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "UN DÍA",
+              "titulo": "Leé mentes",
+              "descripcion": "Derrick examina el arte y la ciencia del mentalismo.",
+              "boton": "keeeee",
+              "link": "https://www.youtube.com/watch?v=o_Sru318sT0&list=PLusYuStjel-Vcvlx5xAkvnTESVU38W3fG&index=3&t=0s"
+            },
+            {
+              "id": 18,
+              "img": "https://images.pexels.com/photos/3794188/pexels-photo-3794188.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "UN DÍA",
+              "titulo": "Escuchá a podcasts",
+              "descripcion": "Los 74 mejores podcasts que puedes escuchar en 2020.",
+              "boton": "me encanta",
+              "link": "https://www.esquire.com/uk/latest-news/a26086091/best-podcasts/"
+            },
+            {
+              "id": 19,
+              "img": "https://images.pexels.com/photos/2284166/pexels-photo-2284166.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "UNA SEMANA",
+              "titulo": "Aprendé a cocinar",
+              "descripcion": "Nuevas formas de acercarse a la comida y la cocina.",
+              "boton": "voy a ser chef",
+              "link": "https://www.177milkstreet.com/school/classes/online-classes"
+            },
+            {
+              "id": 20,
+              "img": "https://images.pexels.com/photos/846080/pexels-photo-846080.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "DOS SEMANAS",
+              "titulo": "Momento de calma",
+              "descripcion": "Tomá un momento de calma en este periodo tan caótico.",
+              "boton": "re tranqui",
+              "link": "https://app.www.calm.com/meditate?from=/"
+            },
+            {
+              "id": 21,
+              "img": "https://images.pexels.com/photos/4722574/pexels-photo-4722574.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "UNA SEMANA",
+              "titulo": "Mirá shows",
+              "descripcion": "Mirá tus éxitos de Broadway favoritos.",
+              "boton": "de cheto",
+              "link": "https://www.broadwayhd.com/"
+            },
+            {
+              "id": 22,
+              "img": "https://images.pexels.com/photos/1036804/pexels-photo-1036804.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "UN DÍA",
+              "titulo": "Reunite con amigos",
+              "descripcion": "Pasá un lindo rato con los que más quieres.",
+              "boton": "me encanta",
+              "link": "https://hangouts.google.com/"
+            },
+            {
+              "id": 23,
+              "img": "https://images.pexels.com/photos/952594/pexels-photo-952594.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "UNA SEMANA",
+              "titulo": "Escribe un cuento",
+              "descripcion": "Una guía diaria para que escribas un cuento.",
+              "boton": "sale cuento",
+              "link": "https://thewritepractice.com/a-story-a-week/"
+            },
+            {
+              "id": 24,
+              "img": "https://images.pexels.com/photos/1325619/pexels-photo-1325619.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "UN MÉS",
+              "titulo": "Defensa personal",
+              "descripcion": "Entiende y practica la defensa personal.",
+              "boton": "hiiiiiaaahhh",
+              "link": "https://www.skillshare.com/browse/self-defense"
+            },
+            {
+              "id": 25,
+              "img": "https://images.pexels.com/photos/4662485/pexels-photo-4662485.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "UN MÉS",
+              "titulo": "Haz un Headstand",
+              "descripcion": "Conciencia para un apoyo para la cabeza fuerte.",
+              "boton": "yo puedo",
+              "link": "https://www.youtube.com/watch?v=V1HbXt5ZRlg"
+            },
+            {
+              "id": 26,
+              "img": "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "UN MÉS",
+              "titulo": "Sé creativo",
+              "descripcion": "El arte es donde está el hogar. Disfruta de tu creatividad.",
+              "boton": "ser creativo",
+              "link": "https://firstsite.uk/art-is-where-the-home-is/"
+            },
+            {
+              "id": 27,
+              "img": "https://images.pexels.com/photos/1660753/pexels-photo-1660753.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "UN MÉS",
+              "titulo": "Aprendé ajedrez",
+              "descripcion": "Aprendé a jugar ajedrez como un pro.",
+              "boton": "jaque mate",
+              "link": "http://www.entertainmentjourney.com/index1.htm"
+            },
+            {
+              "id": 28,
+              "img": "https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+              "tipo": "UN MÉS",
+              "titulo": "Jugá al Fortnite",
+              "descripcion": "Un juego épico para pasar un buen rato.",
+              "boton": "sabelo",
+              "link": "https://www.epicgames.com/fortnite/en-US/home"
+            }
+        
+    ]
+}
